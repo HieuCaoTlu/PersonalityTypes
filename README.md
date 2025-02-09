@@ -7,7 +7,13 @@ API PersonalityTypes sử dụng tiêu chí Keirsey để dự đoán 4 nhóm t�
 - **✅ Accuracy tổng thể:** 91%
 - **📈 Recall trung bình:** 84,5%
 - **🎯 Precision trung bình:** 79,25%
-- **🛡 Hiệu suất dự đoán nhóm Guardians:** tạm thời ở mức ổn
+
+## 🔎 4 nhóm tính cách theo tiêu chí Keirsey
+
+1. **🛡 Guardians (Người bảo hộ)**: Thực tế, có trách nhiệm, thích cấu trúc và trật tự
+2. **🎨 Artisans (Người nghệ sĩ)**: Linh hoạt, thực tế, thích trải nghiệm và khám phá
+3. **🌿 Idealists (Người duy tâm)**: Quan tâm đến sự phát triển cá nhân, nhạy cảm và đầy cảm hứng
+4. **🧠 Rationals (Người lý trí)**: Logic, chiến lược, yêu thích tri thức và hệ thống
 
 ## 🛠 Công nghệ sử dụng
 - **🤖 Mô hình:** LightGBM
@@ -30,12 +36,11 @@ API PersonalityTypes sử dụng tiêu chí Keirsey để dự đoán 4 nhóm t�
 ```
 
 ### 🔍 Các biến đầu vào:
-- `🗣 extraversion_score`: Điểm thể hiện mức độ hướng ngoại
-- `🧠 thinking_score`: Điểm thể hiện mức độ tư duy logic
-- `🎂 age`: Độ tuổi của người được đánh giá
-- `👀 sensing_score`: Điểm thể hiện mức độ cảm nhận chi tiết
-- `⚖ judging_score`: Điểm thể hiện mức độ quyết đoán
+- `extraversion_score`: Điểm thể hiện mức độ hướng ngoại
+- `thinking_score`: Điểm thể hiện mức độ tư duy logic
+- `age`: Độ tuổi của người được đánh giá
+- `sensing_score`: Điểm thể hiện mức độ cảm nhận chi tiết
+- `judging_score`: Điểm thể hiện mức độ quyết đoán
 
 ## 📚 Tham khảo
 Xem nội dung trình bày chung về dự án và LightGBM tại đây: [Google Drive](https://drive.google.com/file/d/1GtmmvBQWHLMUmyfvwpXf_GFxNkTXjjoI/view?usp=sharing)
-
